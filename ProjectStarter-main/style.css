@@ -1,21 +1,48 @@
-body{ 
-    color: #000000; 
-    background-color:#FFFFFF; 
-    font-family: Times, Arial, Cursive;
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
 }
 
 header {
-background-color: rgb(216, 199, 44);
-color: aquamarine;
-color: inherit;
+background-color: rgb(96, 223, 112);
 }
 
-
-
 nav {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    color: rgb(129, 81, 81);
+background-color: #3b4988;
+display: inline-block;
+width: 80%;
+}
+
+/* Imagen SOLO dentro del nav */
+nav img {
+width: 10%;
+position: relative;
+top: 20px;
+}
+
+#img {
+    width: 200px;
+
+} 
+
+/* GRID */
+.grid {
+display: grid;
+grid-template-columns: 40% 40%;
+justify-content: space-around;
+align-items: center;
+row-gap: 20px;
+}
+
+.grid img {
+width: 50%;
+}
+
+/* FLEX */
+.flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
 main {
@@ -23,26 +50,29 @@ background-color: #f2f2f2;
 font-size: 18px;
 }
 
+footer {
+background-color: #33346e;
+}
 
+/* LI COMENTADO */
+/*
 li {
 display: inline-block;
-width: 150px;
-text-align: center;
-color: rgb(76, 180, 67);
+padding: 4px;
+}
+*/
+
+li a {
+text-decoration: none;
+color: black;
 }
 
 h1 {
 text-align: center;
 font-family: Georgia, serif;
-color: rgb(2, 2, 2);
+color: darkred;
 }
 
 p {
 line-height: 1.5;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background: rgb(88, 111, 240);
-}
-
-div {
-background-color: rgb(225, 228, 37);    
 }
